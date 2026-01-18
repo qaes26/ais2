@@ -1,6 +1,5 @@
 import CyclesTableFigure from '../components/critical/CyclesTableFigure';
 import DecisionTable from '../components/critical/DecisionTable';
-import LedgerFigure from '../components/critical/LedgerFigure';
 
 const CriticalSections = () => {
     return (
@@ -15,7 +14,6 @@ const CriticalSections = () => {
             </div>
 
             <DecisionTable />
-            <LedgerFigure />
         </div>
     );
 };

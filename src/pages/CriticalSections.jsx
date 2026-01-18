@@ -1,4 +1,3 @@
-import AISContextFigure from '../components/critical/AISContextFigure';
 import CyclesTableFigure from '../components/critical/CyclesTableFigure';
 import DecisionTable from '../components/critical/DecisionTable';
 import LedgerFigure from '../components/critical/LedgerFigure';
@@ -11,8 +10,7 @@ const CriticalSections = () => {
                 <p className="text-slate-500">الجداول والأشكال التوضيحية الهامة من الكتاب (شاملة الفصول 4-8).</p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-6">
-                <AISContextFigure />
+            <div className="space-y-6">
                 <CyclesTableFigure />
             </div>
 
